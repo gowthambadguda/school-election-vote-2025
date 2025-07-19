@@ -96,17 +96,17 @@ header p {
     font-size: 1em;
     min-height: 40px;
 }
-/* Results Page Styles - MODIFIED */
+/* Results Page Styles */
 .candidate-result {
     padding: 15px;
     background-color: #f8f9fa;
     border: 2px solid #e9ecef;
     border-radius: 10px;
     text-align: center;
-    transition: all 0.3s ease; /* Added transition for hover */
+    transition: all 0.3s ease;
 }
 .candidate-result:hover {
-    transform: translateY(-5px); /* Added hover effect */
+    transform: translateY(-5px);
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     border-color: #007bff;
 }
